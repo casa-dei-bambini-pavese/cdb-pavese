@@ -1,0 +1,54 @@
+<footer class="site-footer">
+
+  <div class="wrapper">    
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <div class="logo">
+          <a href="http://www.montessoriattiva-pavia.it" target="_blank">
+          <img src="/assets/img/logo02.png" alt="Group logo">
+        </div>
+
+        <ul class="contact-list">
+          <li>
+            {% include icon-facebook.html groupname=site.facebook_groupname groupcode=site.facebook_groupcode %}
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <blockquote>
+          <p>"Se vi è per l’umanità una speranza di salvezza e di aiuto, questo aiuto non potrà venire che dal bambino, perché in lui si costruisce l’uomo"</p>
+          <footer>
+            <img src="/assets/img/mm_signature.gif" alt="Maria Montessori signature">
+          </footer>  
+        </blockquote>
+        
+      </div>
+    </div>
+
+  </div>
+
+  <div class="wrapper">
+    <div class="made-with">
+      {% include made-with-jekyll.html %}
+    </div>
+  </div>
+</footer>
+
