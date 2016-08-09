@@ -145,3 +145,18 @@ ul.horizontal-list li {
   padding: 10px;
 }
 
+
+div.announcement {
+  border: 1px solid #71512c;
+  border-left: 8px solid #71512c;
+
+  margin-bottom: 40px;
+  padding: 12px 30px;
+
+  color: #333;
+
+  span.alt-col {
+    color: #7f040d;
+  }
+
+}
