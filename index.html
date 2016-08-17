@@ -6,9 +6,10 @@ layout: default
 
   {% include we_open.html %}
 
+  {{ site.posts.class }}
 
-  {% if site.posts.any? %}
-    <h1 class="page-heading">PostA</h1>
+  {% if site.posts.size > 0 %}
+    <h1 class="page-heading">Contenuti</h1>
 
     <ul class="post-list">
       {% for post in site.posts %}
