@@ -1,12 +1,12 @@
 
 header.site-header {
   a.site-title {
-    color: white;
-    background-color: red;
-    font-family: Satisfy;
-    margin: 5px 0px;
-    padding: 0px 10px;
-    border-radius: 6px;
+    color: grey;
+    // background-color: red;
+    font-family: 'Clicker Script', cursive;
+    // margin: 5px 0px;
+    // padding: 0px 10px;
+    // border-radius: 6px;
 
     ul {
       list-style-type: none;
@@ -18,11 +18,12 @@ header.site-header {
       font-size: 1.1em;
     }
     li.cdb {
-      color: white;
+      padding-left: 20px;
+      color: #d38e98;
     }
     li.pav {
-      padding-left: 10px;
-      color: #FFCDCE;
+      padding-left: 20px;
+      color: #b69b9e;
       font-weight: 120;
     }
   }
