@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Casa dei Bambini Pavese
-email: info@casadeibambinipavese.it
+email: casadeibambinipavese@gmail.com
 alt_email: 
 description: > # this means to ignore newlines until "baseurl:"
   Sito della Casa dei Bambini di Sommo in provincia di Pavia.
@@ -22,9 +22,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.casadeibambinipavese.it" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
-facebook_groupname: Gruppo Facebook
-facebook_groupcode: 699317063437028
-
+facebook_groupname: Pagina Facebook
+facebook_pagename: MontessoriAttivaPavia
 # Build settings
 markdown: kramdown
 timezone: Europe/Rome
