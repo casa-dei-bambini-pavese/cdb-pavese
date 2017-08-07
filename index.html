@@ -4,12 +4,14 @@ layout: default
 
 <div class="home">
 
-  {% include we_open.html %}
+
+  {% include presentation.html %}
 
   {{ site.posts.class }}
 
   {% if site.posts.size > 0 %}
-    <h1 class="page-heading">Contenuti</h1>
+
+    <h1 class="spaced-w-border">Contenuti</h1>
 
     <ul class="post-list">
       {% for post in site.posts %}
@@ -25,7 +27,6 @@ layout: default
       {% endfor %}
     </ul>
   {% endif %}
-
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
