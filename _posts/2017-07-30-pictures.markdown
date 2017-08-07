@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Foto degli spazi"
+title:  "Foto"
 date:   2017-07-30 12:00:00 +0100
 author: Iwan Buetti
 ---
@@ -20,4 +20,5 @@ Qualche foto degli spazi della Casa dei Bambini, delle attività, dei materiali 
 {% include image.html img="/assets/img/anno_1/IMG_7375.jpg" caption="Appendini" %}
 {% include image.html img="/assets/img/anno_1/IMG_8582.jpg" caption="Esploro" %}
 {% include image.html img="/assets/img/anno_1/IMG_8872.jpg" caption="Si pulisce" %}
-{% include image.html img="/assets/img/anno_1/IMG_9234b.jpg" caption="La festa di fine anno" %}
+{% include image.html img="/assets/img/anno_1/festa_1.jpg" caption="La festa di fine anno: saluti e ringraziamenti" %}
+{% include image.html img="/assets/img/anno_1/festa_2.jpg" caption="La festa di fine anno: il gioco" %}
