@@ -4,7 +4,7 @@ title:  Open day 2018 della Casa dei Bambini
 date:   2018-01-29 08:00:00 +0100
 tags:   openday 'Casa dei Bambini'
 author: Samanta Monai
-pinned: true
+pinned: false
 ---
 
 La [Casa dei Bambini](http://www.casadeibambinipavese.it) anche quest'anno apre le porte ai genitori interessati alla pedagogia montessoriana per l’educazione dei propri figli.
