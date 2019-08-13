@@ -17,5 +17,5 @@ Nel corso degli ultimi anni si è creata in proposito una sinergia tra il Comune
 # Risorse
 
 - il [sito](http://www.montessoriattiva-pavia.it/){:target="_blank"} di MontessoriAttiva - Pavia;
-- un [servizio televisivo](http://www.comune.sommo.pv.it/c018151/images/PAVIA%20ITALIA%20edizione%20del%2017%2006%2020161.flv){:target="_blank"} prodotto da TelePavia sull'avvio della sezione a metodo di differenziazione didattica Montessori a Sommo;
+- un [servizio televisivo](https://vimeo.com/346081460){:target="_blank"} realizzato da TelePavia sull'avvio della sezione a metodo di differenziazione didattica Montessori a Sommo;
 - la [pagina dedicata](http://www.comune.sommo.pv.it/c018151/zf/index.php/servizi-aggiuntivi/index/index/idtesto/53){:target="_blank"} alla Casa dei Bambini sul sito del Comune di Sommo.
