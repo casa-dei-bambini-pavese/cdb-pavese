@@ -1,50 +1,24 @@
 ---
-layout: default
+layout: home
+background: '/img/activities/IMG_7723.jpg'
 ---
 
-<div class="home">
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% if post.pinned %}
-        <li class="bau">
-
-          <a class="post-link pinned" href="{{ post.url | prepend: site.baseurl }}">
-            <i class="fa fa-map-pin r-ma-10"></i>
-            {{ post.title }}
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-
-  {% include presentation.html %}
-
-  {{ site.posts.class }}
-
-  {% if site.posts.size > 0 %}
-
-
-
-
-    <h1 class="spaced-w-border">Contenuti</h1>
-
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          <span class="post-meta">
-            {{ post.date | date: "%Y/%-m/%-d" }}
-          </span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-          </h2>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="features">
+  <div class="text-center mb-5 mt-5">è un progetto di scuola parentale, voluto dall'<a href="http://www.montessoriattiva-pavia.it/" target="_blank"><strong>Associazione MontessoriAttiva - Pavia</strong></a>, per bambini dai 3 ai 6 anni</div>
+  <p class="text-center"><img src="/img/Decor_6.png" alt="" class="decor"></p>
+  <div class="text-center mb-5 mt-5">pedagogia Montessori, materiali Montessori, con maestri e maestre formate Montessori</div>
+  <p class="text-center"><img src="/img/Decor_6.png" alt="" class="decor"></p>
+  <div class="text-center mb-5 mt-5">la Casa è aperta dall'inizio di settembre alla fine di luglio</div>
+  <p class="text-center"><img src="/img/Decor_6.png" alt="" class="decor"></p>
+  <div class="text-center mb-5 mt-5">una maestra madrelingua inglese è nostra ospite per tutto il giorno una volta alla settimana</div>
+  <p class="text-center"><img src="/img/Decor_6.png" alt="" class="decor"></p>
+  <div class="text-center mb-5 mt-5">nel corso dell'anno i bambini seguono corsi di teatro, circo, vanno in piscina e in gita</div>
+  <p class="text-center"><img src="/img/Decor_6.png" alt="" class="decor"></p>
+  <div class="text-center mb-5 mt-5">siamo a Sommo a meno di 20 minuti da Pavia in una villetta di due piani circondato da un orto curato dai bambini, un giardino davanti e uno - grande e attrezzato - dietro</div>
+  <p class="text-center"><img src="/img/Decor_6.png" alt="" class="decor"></p>
+  <div class="text-center mb-5 mt-5">il giardino dietro ha un incantevole stagno con ninfee, pesci rossi, gambusie e rane</div>
+  <p class="text-center"><img src="/img/Decor_6.png" alt="" class="decor"></p>
+  <div class="text-center mb-5 mt-5">sempre a Sommo si trova la scuola primaria statale a differenzazione didattica Montessori, quasi tutti i bambini che finiscono il percorso alla Casa dei Bambini proseguono alla scuola primaria</div>
+  <p class="text-center"><img src="/img/Decor_6.png" alt="" class="decor"></p>
+  <div class="text-center mt-5 mb-5 important">ci sono ancora dei posti liberi, <a href="/contact">contattaci</a> per chiedere informazioni</div>
 </div>

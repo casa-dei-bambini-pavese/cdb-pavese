@@ -17,4 +17,4 @@ L’incontro sarà l'occasione per ricevere tutte le informazioni necessarie sul
 Vi aspettiamo sabato 16 febbraio 2019 alle ore 15!
 
 
-{% include image.html img="/assets/img/2019-02-08/open_day_2019.jpg" title="locandina" caption="Locandina Open Day 2019 Casa dei Bambini a Sommo" url="/assets/img/2019-02-08/open_day_2019.pdf" %}
+{% include poster.html img="/assets/img/2019-02-08/open_day_2019.jpg" title="locandina" caption="Locandina Open Day 2019 Casa dei Bambini a Sommo" url="/assets/img/2019-02-08/open_day_2019.pdf" %}

@@ -1,5 +1,7 @@
 <!-- _includes/image.html -->
-<div class="image-wrapper" >
+
+<div class="row">
+  <div class="col">
     {% if include.url %}
     <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
     {% endif %}
@@ -10,4 +12,5 @@
     {% if include.caption %}
         <p class="image-caption">{{ include.caption }}</p>
     {% endif %}
+  </div>
 </div>
