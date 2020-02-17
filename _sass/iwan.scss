@@ -67,3 +67,15 @@ img.posterx {
     width: 160px;
   }
 }
+
+
+.announcement {
+  font-family: 'Open Sans';
+  border-top: 3px double #d82001;
+  border-bottom: 3px double #d82001;
+  cursor: pointer;
+  color: #d82001;
+  small {
+    color: #71686f;
+  }
+}
