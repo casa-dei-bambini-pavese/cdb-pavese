@@ -73,7 +73,9 @@ img.posterx {
   font-family: 'Open Sans';
   border-top: 3px double #d82001;
   border-bottom: 3px double #d82001;
-  cursor: pointer;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  // cursor: pointer;
   color: #d82001;
   small {
     color: #71686f;
